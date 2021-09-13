@@ -1,5 +1,5 @@
-Slot_Machine_Project: Bet.o Credit.o CreditField.o Free_Games.o Gamble.o Keno.o Keno_HotAndCold.o Matrix.o MatrixPharaohs.o PaytableSuperFire.o PaytableTigersBattle.o PaytableWisePharaohs5.o PrintGameName.o Select_Game.o Slot_Machine.o Start.o -o Slot_Machine_Project
-	g++ 
+Slot_Machine_Project: Bet.o Credit.o CreditField.o Free_Games.o Gamble.o Keno.o Keno_HotAndCold.o Matrix.o MatrixPharaohs.o PaytableSuperFire.o PaytableTigersBattle.o PaytableWisePharaohs5.o PrintGameName.o Select_Game.o Slot_Machine.o Start.o 
+	g++ Bet.o Credit.o CreditField.o Free_Games.o Gamble.o Keno.o Keno_HotAndCold.o Matrix.o MatrixPharaohs.o PaytableSuperFire.o PaytableTigersBattle.o PaytableWisePharaohs5.o PrintGameName.o Select_Game.o Slot_Machine.o Start.o -o Slot_Machine_Project
 
 Slot_Machine.o: Slot_Machine.cpp
 	g++ -c Slot_Machine.cpp
