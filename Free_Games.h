@@ -5,7 +5,7 @@
 #include "Gamble.h"
 #include "CreditField.h"
 #include "Select_Game.h"
-#include<windows.h>
+//#include<windows.h>
 #include "Start.h"
 #include "PaytableWisePharaohs5.h"
 class Free_Games {

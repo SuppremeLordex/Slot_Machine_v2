@@ -96,14 +96,14 @@ void Start::StartGameNow(double & credits, unsigned int& bet) {
 			if (credits > 0.0) {
 				std::cout << "Cashout..." << std::endl;
 				std::cout << "Handpay! Call Attendant! " << credits << " Euro!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 				credits = 0;
 			}
 			else {
 				std::cout << "Nothing to cashout!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 			}
 			//exit(0);
 		}
@@ -133,7 +133,7 @@ void Start::StartGameNow(double & credits, unsigned int& bet) {
 				std::cout << "You need to add atleast 1 Euro!" << std::endl;
 				std::cout << "Cashout: " << credits << " Euro." << std::endl;
 				credits = 0;
-				//Sleep(2000);
+				Sleep(2000);
 				SelectGame selectgame;
 				selectgame.selectGame_Welcome();
 				selectgame.selectGame_Games();
@@ -205,14 +205,14 @@ void Start::StartGameNowSuperFire10(double& credits, unsigned int& bet) {
 			if (credits > 0.0) {
 				std::cout << "Cashout..." << std::endl;
 				std::cout << "Handpay! Call Attendant! " << credits << " Euro!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 				credits = 0;
 			}
 			else {
 				std::cout << "Nothing to cashout!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 			}
 			//exit(0);
 		}
@@ -243,7 +243,7 @@ void Start::StartGameNowSuperFire10(double& credits, unsigned int& bet) {
 				std::cout << "You need to add atleast 2 Euro!" << std::endl;
 				std::cout << "Cashout: " << credits << " Euro." << std::endl;
 				credits = 0;
-				//Sleep(2000);
+				Sleep(2000);
 				SelectGame selectgame;
 				selectgame.selectGame_Welcome();
 				selectgame.selectGame_Games();
@@ -314,14 +314,14 @@ void Start::StartGameNowWisePharaohs5(double& credits, unsigned int& bet) {
 			if (credits > 0.0) {
 				std::cout << "Cashout..." << std::endl;
 				std::cout << "Handpay! Call Attendant! " << credits << " Euro!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 				credits = 0;
 			}
 			else {
 				std::cout << "Nothing to cashout!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 			}
 			//exit(0);
 		}
@@ -351,7 +351,7 @@ void Start::StartGameNowWisePharaohs5(double& credits, unsigned int& bet) {
 				std::cout << "You need to add atleast 1 Euro!" << std::endl;
 				std::cout << "Cashout: " << credits << " Euro." << std::endl;
 				credits = 0;
-				//Sleep(2000);
+				Sleep(2000);
 				SelectGame selectgame;
 				selectgame.selectGame_Welcome();
 				selectgame.selectGame_Games();
@@ -423,14 +423,14 @@ void Start::StartGameNowTigersBattle10(double& credits, unsigned int& bet) {
 			if (credits > 0.0) {
 				std::cout << "Cashout..." << std::endl;
 				std::cout << "Handpay! Call Attendant! " << credits << " Euro!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 				credits = 0;
 			}
 			else {
 				std::cout << "Nothing to cashout!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 			}
 			//exit(0);
 		}
@@ -485,7 +485,7 @@ void Start::StartGameNowTigersBattle10(double& credits, unsigned int& bet) {
 				std::cout << "You need to add atleast 2 Euro!" << std::endl;
 				std::cout << "Cashout: " << credits << " Euro." << std::endl;
 				credits = 0;
-				//Sleep(2000);
+				Sleep(2000);
 				SelectGame selectgame;
 				selectgame.selectGame_Welcome();
 				selectgame.selectGame_Games();
@@ -555,14 +555,14 @@ void Start::StartGameNowTigersBattle5(double& credits, unsigned int& bet) {
 			if (credits > 0.0) {
 				std::cout << "Cashout..." << std::endl;
 				std::cout << "Handpay! Call Attendant! " << credits << " Euro!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 				credits = 0;
 			}
 			else {
 				std::cout << "Nothing to cashout!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 			}
 			//exit(0);
 		}
@@ -616,7 +616,7 @@ void Start::StartGameNowTigersBattle5(double& credits, unsigned int& bet) {
 				std::cout << "You need to add atleast 1 Euro!" << std::endl;
 				std::cout << "Cashout: " << credits << " Euro." << std::endl;
 				credits = 0;
-				//Sleep(2000);
+				Sleep(2000);
 				SelectGame selectgame;
 				selectgame.selectGame_Welcome();
 				selectgame.selectGame_Games();
@@ -690,14 +690,14 @@ void Start::StartGameNowKeno(double& credits, unsigned int& bet) {
 			if (credits > 0.0) {
 				std::cout << "Cashout..." << std::endl;
 				std::cout << "Handpay! Call Attendant! " << credits << " Euro!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 				credits = 0;
 			}
 			else {
 				std::cout << "Nothing to cashout!" << std::endl;
-				//std::chrono::seconds duration(3);
-				//std::this_thread::sleep_for(duration);
+				std::chrono::seconds duration(3);
+				std::this_thread::sleep_for(duration);
 			}
 			//exit(0);
 		}
@@ -730,7 +730,7 @@ void Start::StartGameNowKeno(double& credits, unsigned int& bet) {
 				std::cout << "You need to add atleast 1 Euro!" << std::endl;
 				std::cout << "Cashout: " << credits << " Euro." << std::endl;
 				credits = 0;
-				//Sleep(2000);
+				Sleep(2000);
 				SelectGame selectgame;
 				selectgame.selectGame_Welcome();
 				selectgame.selectGame_Games();

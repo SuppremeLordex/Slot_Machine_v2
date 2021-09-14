@@ -135,8 +135,8 @@ unsigned int Bet::selectBetKeno(unsigned int& bet, double& credit) {
 				if (y[0] == 'q' && y.size() == 1) {
 					std::cout << "Cashout..." << std::endl;
 					std::cout << "Handpay! Call Attendant! " << _credit_bet << " Euro!" << std::endl;
-					//std::chrono::seconds duration(3);
-					//std::this_thread::sleep_for(duration);
+					std::chrono::seconds duration(3);
+					std::this_thread::sleep_for(duration);
 					SelectGame selectgame;
 					selectgame.selectGame_Welcome();
 					selectgame.selectGame_Games();
@@ -297,8 +297,8 @@ unsigned int Bet::selectBetTigersBattle5(unsigned int& bet, double& credit) {
 				if (y[0] == 'q' && y.size() == 1) {
 					std::cout << "Cashout..." << std::endl;
 					std::cout << "Handpay! Call Attendant! " << _credit_bet << " Euro!" << std::endl;
-					//std::chrono::seconds duration(3);
-					//std::this_thread::sleep_for(duration);
+					std::chrono::seconds duration(3);
+					std::this_thread::sleep_for(duration);
 					credit = 0;
 					SelectGame selectgame;
 					selectgame.selectGame_Welcome();
@@ -796,9 +796,9 @@ unsigned int Bet::selectBetSuperFire10(unsigned int& bet, double& credit) {
 				}
 				if (y[0] == 'q' && y.size() == 1) {
 					std::cout << "Cashout..." << std::endl;
-					std::cout << "Handpay! Call Attendant! " << _credit_bet << " Euro!" << std::endl;
+					//std::cout << "Handpay! Call Attendant! " << _credit_bet << " Euro!" << std::endl;
 					//std::chrono::seconds duration(3);
-					//std::this_thread::sleep_for(duration);
+					std::this_thread::sleep_for(duration);
 					SelectGame selectgame;
 					selectgame.selectGame_Welcome();
 					selectgame.selectGame_Games();
@@ -960,8 +960,8 @@ unsigned int Bet::selectBetWisePharaohs(unsigned int& bet, double& credit) {
 					std::cout << "Cashout..." << std::endl;
 					std::cout << "Handpay! Call Attendant! " << _credit_bet << " Euro!" << std::endl;
 					
-					//std::chrono::seconds duration(3);
-					//std::this_thread::sleep_for(duration);
+					std::chrono::seconds duration(3);
+					std::this_thread::sleep_for(duration);
 					SelectGame selectgame;
 					selectgame.selectGame_Welcome();
 					selectgame.selectGame_Games();

@@ -10,7 +10,7 @@
 #include "Select_Game.h"
 #include "Free_Games.h"
 #include "MatrixPharaohs.h"
-#include "PaytableTigersBattle.h"
+#include "PaytableTiger'sBattle.h"
 #include "Keno.h"
 #include "Keno_HotAndCold.h"
 #include <iomanip>

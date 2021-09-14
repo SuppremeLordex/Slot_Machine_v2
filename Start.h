@@ -4,11 +4,11 @@
 #include "Bet.h"
 #include "PaytableSuperFire.h"
 #include "PaytableWisePharaohs5.h"
-#include "PaytableTiger'sBAttle.h"
+#include "PaytableTigersBattle.h"
 #include "Gamble.h"
 #include "CreditField.h"
 #include "Select_Game.h"
-#include<windows.h>
+//#include<windows.h>
 #include "Keno.h"
 #include "Keno_HotAndCold.h"
 class Start : Matrix {
