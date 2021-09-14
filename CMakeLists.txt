@@ -1,0 +1,37 @@
+cmake_minimum_required (VERSION 3.16.3)
+
+project(Slot_Machine)
+
+add_executable(Slot_Machine
+  "Bet.cpp"
+  "Credit.cpp"
+  "CreditField.cpp"
+  "Free_Games.cpp"
+  "Gamble.cpp"
+  "Keno.cpp"
+  "Keno_HotAndCold.cpp"
+  "Matrix.cpp"
+  "MatrixPharaohs.cpp"
+  "PaytableSuperFire.cpp"
+  "PaytableTigersBattle.cpp"
+  "PaytableWisePharaohs5.cpp"
+  "PrintGameName.cpp"
+  "Select_Game.cpp"
+  "Slot_Machine.cpp"
+  "Start.cpp"
+  "Bet.h"
+  "CreditField.h"
+  "Credit.h"
+  "Free_Games.h"
+  "Gamble.h"
+  "Keno.h"
+  "Keno_HotAndCold.h"
+  "Matrix.h"
+  "MatrixPharaohs.h"
+  "PaytableSuperFire.h"
+  "PaytableTigersBattle.h" 
+  "PaytableWisePharaohs5.h"
+  "PrintGameName.h"
+  "Select_Game.h"
+  "Start.h"
+)
